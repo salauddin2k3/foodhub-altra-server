@@ -14,9 +14,9 @@ const slugify = (value: string) =>
     .replace(/(^-|-$)+/g, '');
 
 async function main() {
-  const adminEmail = process.env.ADMIN_EMAIL || 'admin@foodhub.com';
+  const adminEmail = process.env.ADMIN_EMAIL || 'admin@foodhubaltra.com';
   const adminPassword = process.env.ADMIN_PASSWORD || 'admin123';
-  const adminName = process.env.ADMIN_NAME || 'FoodHub Admin';
+  const adminName = process.env.ADMIN_NAME || 'FoodHub Altra Admin';
   const saltRounds = Number(process.env.BCRYPT_SALT_ROUNDS || 10);
 
   const existingAdmin = await prisma.user.findUnique({ where: { email: adminEmail } });

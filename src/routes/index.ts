@@ -8,7 +8,7 @@ import adminRoutes from './admin.routes';
 const router = Router();
 
 router.get('/health', (req, res) => {
-  res.status(200).json({ success: true, message: 'FoodHub API is running' });
+  res.status(200).json({ success: true, message: 'FoodHub Altra API is running' });
 });
 
 router.use('/auth', authRoutes);

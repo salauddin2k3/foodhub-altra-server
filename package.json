@@ -1,7 +1,7 @@
 {
-  "name": "foodhub-backend",
+  "name": "foodhub-altra-backend",
   "version": "1.0.0",
-  "description": "FoodHub backend API with Express, TypeScript, Prisma, and PostgreSQL",
+  "description": "FoodHub Altra Backend API with Express, TypeScript, Prisma, and PostgreSQL",
   "main": "dist/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
